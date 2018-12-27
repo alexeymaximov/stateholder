@@ -1,6 +1,6 @@
 package stateholder
 
-import "gitlab.studionx.ru/rnd/boots/0.1.1/lib/syspack"
+import "github.com/alexeymaximov/syspack"
 
 // Define entry.
 func (sh *Stateholder) define(key string, kind Kind, size EntrySize) error {
